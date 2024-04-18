@@ -1,0 +1,33 @@
+/* Post.css */
+
+.post {
+  width: 300px;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.post-image {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.post-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.like-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.like-count {
+  font-size: 16px;
+  color: #555;
+}
